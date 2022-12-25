@@ -1,0 +1,28 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Satish Baghel",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.0.12",
+    "mongoose-aggregate-paginate-v2": "^1.0.5",
+    "multer": "^1.4.3",
+    "node-input-validator": "^4.4.1",
+    "nodejs-base64": "^2.0.0",
+    "nodemailer": "^6.7.0",
+    "nodemon": "^2.0.14",
+    "object-encode": "^1.0.2"
+  }
+}
